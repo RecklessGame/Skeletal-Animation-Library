@@ -5,11 +5,11 @@ A small library that draws skeletal animated models given animation number and t
 See sfml_examples.cpp
 
 ###Dependencies
-sfml_examples.cpp uses SFML, and the header-files are dependent on Assimp (http://assimp.sourceforge.net/) and OpenGL. 
+sfml_examples.cpp uses SFML (http://www.sfml-dev.org/), and the header-files are dependent on Assimp (http://assimp.sourceforge.net/) and OpenGL. 
 
 Additionally, the library is using C++14 features. 
 
 ### Compile and run
-Use cmake and make to compile the examples. 
+Use cmake and make to compile. 
 
-Then, to run them: ./sfml_examples
+Then, to run the examples: ./sfml_examples
