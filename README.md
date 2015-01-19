@@ -25,8 +25,9 @@ Additionally, the library is using C++14 features.
 
 Compilation:
 
-`cmake .`
-
-`make`
+```
+cmake .
+make
+```
 
 Then, to run the examples: `./sfml_examples`
