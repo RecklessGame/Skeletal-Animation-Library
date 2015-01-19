@@ -24,7 +24,9 @@ Additionally, the library is using C++14 features.
 ### Compile and run
 
 Use:
+
 cmake .
+
 make
 
 Then, to run the examples: ./sfml_examples
