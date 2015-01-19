@@ -9,7 +9,7 @@ A small library that draws skeletal animated models given animation number and t
 
 ### TODO
 
-Draw using newer OpenGL with skinning on GPU instead of CPU (see SkeletalAnimationModel::drawMeshFrame(const MeshType&).
+* Draw using newer OpenGL with skinning on GPU instead of CPU (see SkeletalAnimationModel::drawMeshFrame(const MeshType&)
 
 ###Usage
 
