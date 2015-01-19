@@ -170,7 +170,7 @@ void printBoneHierarchy(const SkeletalAnimationModel<TextureHandler>& model) {
 class SFMLApplication {
 public:
     SFMLApplication(): contextSettings(32), 
-            window(sf::VideoMode(800, 640), "Skeletal Animation Example", sf::Style::Default, contextSettings) {}
+            window(sf::VideoMode(800, 640), "Skeletal Animation Library", sf::Style::Default, contextSettings) {}
 
     void start() {
         window.setFramerateLimit(100);
