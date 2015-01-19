@@ -23,7 +23,7 @@ Additionally, the library is using C++14 features.
 
 ### Compile and run
 
-Use:
+Compilation:
 
 cmake .
 
