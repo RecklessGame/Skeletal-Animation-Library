@@ -7,7 +7,9 @@ A small library that draws skeletal animated models given animation number and t
 * Simple way to draw unanimated models (using model.hpp)
 * Simple way to draw skeletal animated model (using skeletal_animation_model.hpp)
 
-* TODO: draw using newer OpenGL with skinning on GPU instead of CPU (see SkeletalAnimationModel::drawMeshFrame(const MeshType&)
+### TODO
+
+Draw using newer OpenGL with skinning on GPU instead of CPU (see SkeletalAnimationModel::drawMeshFrame(const MeshType&)
 
 ###Usage
 
