@@ -29,5 +29,4 @@ cmake .
 
 make
 
-
 Then, to run the examples: ./sfml_examples
