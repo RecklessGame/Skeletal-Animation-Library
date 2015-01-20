@@ -12,6 +12,7 @@ Made in collaboration with Mathias Mikalsen (mathias.mikalsen1230@gmail.com).
 ### TODO
 
 * Draw using newer OpenGL with skinning on GPU instead of CPU (see SkeletalAnimationModel::drawMeshFrame(const MeshType&)
+* Maybe use OpenGL Mathematics (GLM) instead of Assimp's vectors, quaternions and matrices. 
 
 ###Usage
 
