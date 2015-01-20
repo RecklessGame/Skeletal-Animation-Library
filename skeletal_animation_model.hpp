@@ -256,7 +256,7 @@ public:
     //createFrame(animationId, time);
     //for(auto& mesh: this->meshes)
     //    drawMeshFrame(mesh);
-    void drawMeshFrame(const MeshType& mesh) const {
+    virtual void drawMeshFrame(const MeshType& mesh) const {
         throw std::logic_error("Not implemented");
     }
     
