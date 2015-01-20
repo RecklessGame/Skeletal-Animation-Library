@@ -217,7 +217,7 @@ public:
 
     //Draws the given mesh frame.
     //Currently only supports 1 diffuse texture per material
-    void drawMeshFrame(const MeshFrame& meshFrame) const {
+    virtual void drawMeshFrame(const MeshFrame& meshFrame) const {
         const MeshType& mesh=meshFrame.mesh;
         
         bool texture=false;
@@ -270,7 +270,7 @@ public:
     }
 
     //Read the 3D model
-    void read(const std::string& filename, unsigned int assimpImporterFlags=aiProcessPreset_TargetRealtime_Fast) {
+    virtual void read(const std::string& filename, unsigned int assimpImporterFlags=aiProcessPreset_TargetRealtime_Fast) {
         Assimp::Importer importer;
 
         const aiScene *scene = importer.ReadFile(filename, assimpImporterFlags);
@@ -281,8 +281,8 @@ public:
         }
     }
 
-private:
-    void read(const aiScene *scene) {
+protected:
+    virtual void read(const aiScene *scene) {
         //Find channels, and the bones used in the channels
         for(unsigned int ca=0;ca<scene->mNumAnimations;ca++) {
             animations.emplace_back();
