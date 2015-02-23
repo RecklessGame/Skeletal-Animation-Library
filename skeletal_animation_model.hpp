@@ -103,7 +103,7 @@ private:
 public:
     //time in seconds
     template<class KeyType>
-    auto interpolate(const std::vector<KeyType>& keys, double time, bool loop=true) const {
+    auto interpolate(const std::vector<KeyType>& keys, double time, bool loop=true) const -> decltype(keys.begin()->mValue) {
         time*=ticksPerSecond;
 
         if(loop) {
