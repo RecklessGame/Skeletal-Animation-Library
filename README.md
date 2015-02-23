@@ -22,7 +22,7 @@ See sfml_examples.cpp
 
 sfml_examples.cpp uses SFML (http://www.sfml-dev.org/), and the header-files are dependent on Assimp (http://assimp.sourceforge.net/) and OpenGL. 
 
-Additionally, the library is using C++14 features. 
+Additionally, the library is using C++11 features. 
 
 ### Compile and run
 
