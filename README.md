@@ -1,6 +1,6 @@
 # Skeletal-Animation-Library
 
-A small C++14 library that draws skeletal animation models given animation number and time. Made to be used with other libraries such as Bullet Physics and Box2D. 
+A small C++11 library that draws skeletal animation models given animation number and time. Made to be used with other libraries such as Bullet Physics and Box2D. 
 
 Made in collaboration with Mathias Mikalsen (mathias.mikalsen1230@gmail.com). 
 
